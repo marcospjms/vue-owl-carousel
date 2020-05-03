@@ -93,6 +93,11 @@
       role: 'listbox',
       tabindex: '0'
     });
+    this.$element.find('.owl-dot').each(function(i){
+      $(this).attr({
+        'aria-label': `button slide ${i + 1}`
+      });
+    });
   };
 
   /**
