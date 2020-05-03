@@ -15,6 +15,7 @@
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import 'owl.carousel';
+import './assets/owlcarousel2-a11ylayer';
 
 import events from './utils/events';
 
