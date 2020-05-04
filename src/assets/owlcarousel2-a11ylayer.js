@@ -98,6 +98,16 @@
         'aria-label': `button slide ${i + 1}`
       });
     });
+    this.$element.find('.owl-prev').each(function(i){
+      $(this).attr({
+        'aria-label': `Previous slide`
+      });
+    });
+    this.$element.find('.owl-next').each(function(i){
+      $(this).attr({
+        'aria-label': `Next slide`
+      });
+    });
   };
 
   /**
