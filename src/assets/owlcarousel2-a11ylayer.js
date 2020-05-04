@@ -252,12 +252,12 @@
 
     if (!!stage) {
       var offs = stage.offset();
-      if (!!targ) {
-        window.scrollTo(
-          offs.left,
-          offs.top - parseInt($('body').css('padding-top'), 10)
-        );
-      }
+      // if (!!targ) {
+      //   window.scrollTo(
+      //     offs.left,
+      //     offs.top - parseInt($('body').css('padding-top'), 10)
+      //   );
+      // }
 
       this._core.$stage.children().each(function(i) {
         var item = $(this);
